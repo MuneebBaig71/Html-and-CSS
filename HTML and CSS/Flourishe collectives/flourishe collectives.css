@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+nav ul{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    background-color: lightgoldenrodyellow;
+    flex-wrap: wrap;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 40rem;
+    list-style: none;
+}   
+.hero{
+    min-height: 150vh;
+        background-image: url(./pexels-karsten-madsen-18105.jpg);
+        background-size: cover;
+        background-position: center;
+        color: rgb(70, 165, 98);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.hero h2 {
+    text-align: center ;
+    margin: 2rem;
+}
+.hero button{
+    padding: 1rem 2rem;
+    background: rgb(97, 156, 175);
+    border: none;
+}
+
+.intro{
+    display: flex;
+ flex-wrap: wrap;
+ height: 50vh;
+
+}
+.intro img{
+    width: 100%;
+}
+.intro-img{
+   flex: 1 1 30rem;
+    
+}
+.intro-text{
+flex: 1 1 30rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: burlywood;
+}
+.intro-text h2{
+
+    padding: 2rem;
+}
+.intro-text p{
+    padding: 1rem;
+}
