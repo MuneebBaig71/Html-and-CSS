@@ -102,6 +102,15 @@ nav ul{
         z-index: -2;
 
     }
+    footer{
+        text-align: center;
+    }
+    footer h5{
+        padding: 2rem;
+    }
+    .form-wrapper{
+        width: 100%;
+    }
 }
 /* Locations Section*/
 #locations{
@@ -159,14 +168,14 @@ margin: auto;
     }
 }
 .benefits-head{
-    padding: 1rem;
+    padding: 3rem;
     background-color:#343c44;;
-    min-width: 90vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    color:rgb(83, 78, 78);
+    color:white;
     text-align: center;
 }
 .benefits-head 
@@ -187,12 +196,11 @@ h3{
     min-height: 40vh;
     margin: 2rem 5rem;
     flex: 1 1 25rem;
-    background: darkgrey;
-   
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background: darkgrey; 
+
 }
-.card h4,p{
-    padding: 3rem;
-}
+
 .cards img{
     max-width: 15%;
     margin: 2rem;
@@ -200,4 +208,64 @@ h3{
 .cards-icon{
     background:black;
 }
+#contact {
+    min-height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,0.3),transparent),url(./img/contact-mountain.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    background:rgba(19,28,39,1);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    }
+    .form-head{
+        padding: 4rem;
+        text-align: center;
+    }
+    .name-form,.email-form{
+        padding: 3rem;
+        text-align: center;
 
+    }
+    .form-wrapper label{
+        margin: 0rem 3rem;
+    }
+    .form-wrapper button{
+        padding: 2rem;
+        width: 100%;
+        margin-top: 8rem;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
+    .form-wrapper input{
+        padding: 1rem 3rem;
+    }
+    footer{
+        color: white;
+        background: rgba(19,28,39,1);
+    }
+    .footer-wrapper{
+        display: flex;
+        padding: 2rem;
+        margin: auto;
+        width: 90%;
+        align-items: center;
+        min-height: 10vh;
+        flex-wrap: wrap;
+    }
+    footer h5{
+        flex: 1 1 40rem;
+    }
+    footer ul{
+        display: flex;
+        list-style: none;
+        flex: 1 1 40rem;
+        justify-content: space-between;
+        align-items: center;
+    }
